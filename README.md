@@ -28,3 +28,6 @@ git add .                  # ajouter vos modifications
 git commit -m "message"    # valider localement
 git push origin ma-branche # envoyer sur votre branche
 git pull                   # récupérer les corrections
+
+## Rendu TP2 - FITIAVANA Kanto
+Implementation des algorithmes de tri fusion , Karatsuba, exponentiation et resolution des Tours de Hnoi.
