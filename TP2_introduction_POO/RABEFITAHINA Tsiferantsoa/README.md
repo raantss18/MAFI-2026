@@ -1,0 +1,1 @@
+Toutes les reponses de TP2 sont dans cette fichier seance2.ipynb. Merci pour votre lecture
