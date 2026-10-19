@@ -1,0 +1,12 @@
+import Mathlib.RingTheory.Polynomial.Basic
+open Polynomial
+
+/-! # Exercice 8.7 : Vérification factorielle en Lean 4 -/
+
+-- 1. Vérifier que X² - 1 = (X - 1)(X + 1)
+example : (X ^ 2 - 1 : Polynomial Int) = (X - 1) * (X + 1) := by
+  ring
+
+  -- 2. Adapter pour X³ - 1 = (X - 1)(X² + X + 1)
+  example : (X ^ 3 - 1 : Polynomial Int) = (X - 1) * (X ^ 2 + X + 1) := by
+    ring
